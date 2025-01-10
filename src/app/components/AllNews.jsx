@@ -3,18 +3,12 @@ import BlogCard from "./BlogCard";
 function AllNews() {
   return (
     <div>
-      <div className="flex justify-center gap-10">
-        <h1 className="text-4xl font-bold">Latest News</h1>
-        <button>Development</button>
-        <button>UX/UI </button>
-        <button>Carirer</button>
-      </div>
-      <div className="flex justify-center gap-10">
+      <div className="flex justify-center gap-10 mr-12">
         <BlogCard />
         <BlogCard />
         <BlogCard />
       </div>
-      <div className="flex justify-center gap-10">
+      <div className="flex justify-center gap-14 mr-12">
         <BlogCard />
         <BlogCard />
         <BlogCard />

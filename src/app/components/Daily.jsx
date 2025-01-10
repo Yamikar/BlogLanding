@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 function Daily() {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center gap-4">
         <BlogCard />
         <BlogCard />
         <BlogCard />

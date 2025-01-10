@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f7f1ff;
   --foreground: #171717;
 }
 
@@ -23,4 +23,8 @@ li {
   gap: 10px;
   justify-content: center;
   display: flex;
+}
+
+body {
+  background-color: var(--background);
 }
