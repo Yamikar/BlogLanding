@@ -3,12 +3,17 @@ import BlogCard from "./BlogCard";
 function AllNews() {
   return (
     <div>
-      <div className="flex justify-center gap-10 mr-12">
+      <div className="flex justify-center gap-2 mt-28 ">
         <BlogCard />
         <BlogCard />
         <BlogCard />
       </div>
-      <div className="flex justify-center gap-14 mr-12">
+      <div className="flex justify-center gap-2 mt-3 ">
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+      </div>
+      <div className="flex justify-center gap-2 mt-3 ">
         <BlogCard />
         <BlogCard />
         <BlogCard />

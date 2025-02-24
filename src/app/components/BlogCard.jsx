@@ -2,22 +2,18 @@ import React from "react";
 
 function BlogCard() {
   return (
-    <div>
-      <div className="w-80 h-bıgcard ">
-        <div className="w-80 h-52 bg-blue-100"></div>
-        <div className="flex mt-4 ">
-          <div className="w-8 h-8 bg-orange-200 rounded-full"></div>
-          <p className="text-xs mt-2 ml-3">Yılmaz Keksin</p>
-        </div>
-        <h1 className="text-1xl font-bold">
-          Developing Useful Products <br /> That Would Meet User's <br /> Needs
-        </h1>
-        <p className="text-sm mt-2">Technology</p>
-        <p className="mt-2 text-sm">
-          The future of Tech: Implications and also <br /> trends, this is so
-          very important because it <br /> helps them to...
-        </p>
-        <button>Click Me</button>
+    <div className="card-style">
+      <div className="container">
+        <div className="image-card"></div>
+      </div>
+      <p className="text-blue-500 text-sm ml-6 mt-5">Technology</p>
+      <h2 className="text-2xl  ml-6 font-bold">
+        The Impact of Technology on <br /> the Workplace: How <br /> Technology
+        is Changing
+      </h2>
+      <div className="flex gap-2 mt-5 ml-6">
+        <p className="text-base">Yılmaz Keskin</p>
+        <p className="text-base">Şubat 24 , 2025</p>
       </div>
     </div>
   );

@@ -1,19 +1,17 @@
 import Header from "./components/Header";
-import Section from "./components/Section";
 import AllNews from "./components/AllNews";
-import Daily from "./components/Daily";
 import Footer from "./components/Footer";
-import MınıBlog from "./components/MınıBlog";
-import AdsCard from "./components/AdsCard";
+import Popcard from "./components/Popcard";
+import Maincard from "./components/Maincard";
 export default function Home() {
   return (
     <div>
       <Header />
-      <Section />
+      <Maincard />
+      <Popcard />
       <AllNews />
-      <AdsCard />
-      <MınıBlog />
-      <Daily />
+      <Popcard />
+
       <Footer />
     </div>
   );
