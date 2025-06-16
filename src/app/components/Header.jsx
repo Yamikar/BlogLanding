@@ -2,20 +2,16 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex justify-around">
-      <button>Click Me</button>
-      <ol>
-        <li>Home</li>
-        <li>About</li>
-        <li>Content</li>
-        <li>Blog</li>
-        <li>Blog</li>
-      </ol>
-      <button>Click Me</button>
+    <div className="flex justify-center">
+      <div className="w-header  h-16 bg-white  border-[1px] border-gray-200 border-solid">
+        <ol>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Content</li>
+        </ol>
+      </div>
     </div>
   );
 }
 
 export default Header;
-
-/*eklemeler yapılacak ama %49 tamamlandı */

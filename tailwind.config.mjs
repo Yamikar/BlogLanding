@@ -12,10 +12,15 @@ export default {
         foreground: "var(--foreground)",
       },
       height: {
+        mını: "400px",
+        card: "400px",
         long: "600px",
       },
       width: {
+        mını: "360px",
+        long: "550px",
         main: "1200px",
+        header: "800px",
       },
     },
   },

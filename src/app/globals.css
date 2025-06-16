@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,43 +8,40 @@
   margin: 0;
 }
 
-ol,
 li {
   gap: 20px;
   justify-content: center;
   display: flex;
 }
 
-.card-style {
-  border: 1px solid gray;
-  background: none;
-  border-radius: 12px;
-  height: 488px;
-  width: 392px;
+/*Modern Uptade*/
+
+.image {
+  background: url(./image.png);
+  height: 200px;
+  width: 550px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-.image-card {
-  background-color: blue;
-  border-radius: 6px;
-  height: 240px;
+.sm-image {
+  background: url(./image.png);
+  height: 200px;
   width: 360px;
 }
 
-footer {
-  margin-top: 80px;
-  background-color: #f6f6f7;
-  height: 500px;
-  width: 100%;
+button {
+  color: orange;
 }
 
-.cardbox {
-  border-radius: 12px;
-  background-color: #e8e8ea;
-  height: 100px;
-  width: 750px;
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 30px;
+  width: 600px;
+}
+
+.btn-1 {
+  width: 87px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: black;
 }

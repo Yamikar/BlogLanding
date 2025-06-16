@@ -1,17 +1,13 @@
-import Header from "./components/Header";
 import AllNews from "./components/AllNews";
 import Footer from "./components/Footer";
-import Popcard from "./components/Popcard";
 import Maincard from "./components/Maincard";
+import FıllterConsole from "./components/FıllterConsole";
 export default function Home() {
   return (
     <div>
-      <Header />
       <Maincard />
-      <Popcard />
+      <FıllterConsole />
       <AllNews />
-      <Popcard />
-
       <Footer />
     </div>
   );

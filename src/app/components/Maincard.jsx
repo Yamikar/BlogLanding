@@ -1,17 +1,17 @@
 import React from "react";
-
+import Header from "./Header";
 function Maincard() {
   return (
-    <div className="flex justify-center mt-10">
-      <div className="w-main h-long bg-black rounded-xl">
-        <h3 className="text-white font-bold text-4xl ">
-          The Impact of Technology on the <br /> Workplace: How Technology is
-          Changing
-        </h3>
-        <div className="flex gap-2 mt-5 ml-6">
-          <p className="text-base text-white">Yılmaz Keskin</p>
-          <p className="text-base text-white">Şubat 24 , 2025</p>
-        </div>
+    <div className="flex justify-center flex-col">
+      <div className="bg-gray-100 w-full h-96">
+        <h1 className="text-center font-bold text-6xl mt-24">
+          Insight and Updates{" "}
+        </h1>
+        <p className="text-center mt-5">
+          A collection of hand-picked articles for freelancers, by freelancers.
+          Deep dives, <br /> insights, and honest advice to navigate the
+          freelance landscape.
+        </p>
       </div>
     </div>
   );
