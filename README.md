@@ -1,18 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Frontend Resource Hub - Yılmaz Keskin
 
-## Getting Started
+This is a personal project that serves as a curated archive of valuable frontend development resources.  
+Built with **Next.js** and **Tailwind CSS**, this application is designed to organize and share links to useful documentation, tools, UI kits, articles, and more.
 
-First, run the development server:
+> 🚀 “Don't store knowledge — share it so it grows.” – Yılmaz Keskin
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🧠 Purpose of the Project
+
+In the fast-evolving frontend world, new tools and documentation appear every day.  
+This project helps me organize what I find useful while also allowing others to benefit from high-quality resources.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology                               | Description                                |
+| ---------------------------------------- | ------------------------------------------ |
+| [Next.js](https://nextjs.org/)           | React-based framework for SSR & routing    |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework for modern UIs |
+| [React](https://reactjs.org/)            | Component-based UI library                 |
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live Project](https://ymzkes.netlify.app)
+
+---
+
+## 📸 Screenshots (optional)
+
+> You can add a screenshot like this:
+
+```md
+![Homepage Screenshot](./public/screenshots/homepage.png)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 1. Clone the repo
 
+git clone https://github.com/YOUR_USERNAME/frontend-resource-hub.git
+
+# 2. Navigate to the project folder
+
+cd frontend-resource-hub
+
+# 3. Install dependencies
+
+npm install
+
+# 4. cd src folder
+
+    cd src
+
+# 5. Start the development server
+
+npm run dev

@@ -1,12 +1,10 @@
 import AllNews from "./components/AllNews";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Maincard from "./components/Maincard";
-import FıllterConsole from "./components/FıllterConsole";
 export default function Home() {
   return (
     <div>
-      <Maincard />
-      <FıllterConsole />
+      <Header />
       <AllNews />
       <Footer />
     </div>

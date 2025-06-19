@@ -12,7 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
       height: {
-        mını: "400px",
+        mını: "320px",
         card: "400px",
         long: "600px",
       },

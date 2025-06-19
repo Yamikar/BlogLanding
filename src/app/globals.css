@@ -8,40 +8,11 @@
   margin: 0;
 }
 
-li {
-  gap: 20px;
-  justify-content: center;
-  display: flex;
-}
-
 /*Modern Uptade*/
 
-.image {
-  background: url(./image.png);
-  height: 200px;
-  width: 550px;
-}
-
 .sm-image {
+  border-radius: 10px;
   background: url(./image.png);
   height: 200px;
   width: 360px;
-}
-
-button {
-  color: orange;
-}
-
-input {
-  border: 1px solid gray;
-  border-radius: 5px;
-  height: 30px;
-  width: 600px;
-}
-
-.btn-1 {
-  width: 87px;
-  border-radius: 5px;
-  border: 1px solid gray;
-  color: black;
 }

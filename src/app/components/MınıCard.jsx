@@ -3,7 +3,7 @@ import React from "react";
 function MınıCard() {
   return (
     <div>
-      <div className="h-mını w-mını border-[1px] border-gray-300 border-solid rounded-lg">
+      <div className="h-mını w-mını">
         <div className="sm-image"></div>
         <div className="flex">
           <p className="text-orange-600 text-xs mt-5">Medium Write</p>
@@ -18,7 +18,6 @@ function MınıCard() {
             amazing public docs for their users.
           </p>
         </div>
-        <button className="mt-5 ">Read Now ...</button>
       </div>
     </div>
   );
