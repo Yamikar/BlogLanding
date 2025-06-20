@@ -1,22 +1,17 @@
 import React from "react";
+import deneme from "./src/images/photoM.jpg";
 
-function MınıCard() {
+function MınıCard({ tag, title, content, image }) {
   return (
     <div>
       <div className="h-mını w-mını">
-        <div className="sm-image"></div>
+        <img src={image} alt="" />
         <div className="flex">
-          <p className="text-orange-600 text-xs mt-5">Medium Write</p>
+          <p className="text-orange-600 text-xs mt-5">{tag}</p>
         </div>
         <div>
-          <h1 className="font-bold text-base">
-            Meet all the new Stack: The documentation platform you know, made
-            effortless with Al
-          </h1>
-          <p className="text-xs mt-2">
-            We've helped thousands of teams document their knowledge and create
-            amazing public docs for their users.
-          </p>
+          <h1 className="font-bold text-base">{title}</h1>
+          <p className="text-xs mt-2">{content}</p>
         </div>
       </div>
     </div>
