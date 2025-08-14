@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Modern Document Yılmaz Keskın",
-  description: "Personal Document Page",
+  title: "Yılmaz Keskın",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
